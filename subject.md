@@ -64,7 +64,7 @@ Essayez donc d'afficher le contenu de votre liste mais dans le sens inverse. Il 
 
 Cette partie concerne les tableaux de pointeurs sur fonctions. L'exercice consiste à prendre une chaîne de caractères passée en paramètre de votre programme ainsi que des entrées utilisateur. Ces dernières consisteront simplement à choisir comment afficher la dite chaîne de caractères. Si jamais l'exercice reste un peu abstrait à vos yeux, laissez vous guider par les étapes suivantes ou demandez de l'aide aux AERs.
 
-#warn(L'AER roux n'est pas très agréable mais il ne mord pas.)
+#warn(L'AER roux n'est pas très agréable mais il ne mord pas.(C'est Lucas))
 
 ## Exo 2-1
 
