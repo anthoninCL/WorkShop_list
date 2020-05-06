@@ -28,5 +28,6 @@ promo_t *create_list(char *name, char *lastname, int age)
     else
         list->last_name = strdup(lastname);
     list->age = age;
+    list->next = NULL;
     return list;
 }
