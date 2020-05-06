@@ -12,10 +12,13 @@
 
 promo_t *create_list(char *name, char *lastname, int age)
 {
+    // Creation et allocation d'un nouvel element
     promo_t *list = malloc(sizeof(promo_t));
 
+    // Verification du retour de malloc
     if (!list)
         return NULL;
+    // Remplissage de la structure
     if (!name)
         list->name = NULL;
     else
