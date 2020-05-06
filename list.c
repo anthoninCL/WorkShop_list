@@ -24,7 +24,7 @@ promo_t *create_list(char *name, char *lastname, int age)
     else
         list->name = strdup(name);
     if (!lastname)
-        list->last_name = strdup(lastname);
+        list->last_name = NULL;
     else
         list->last_name = strdup(lastname);
     list->age = age;
